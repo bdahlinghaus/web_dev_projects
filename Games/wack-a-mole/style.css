@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    width: 600px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    margin: 0px;
+    padding: 0px;
+    width: 600px;
+    text-align: center;
+    }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 620px;
+    height: 620px;
+    
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border:2px solid brown;
+    margin: 1px;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+#start-button {
+    height: 80px;
+    width: 600px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-size-adjust: 50px;
+}
